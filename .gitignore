@@ -35,6 +35,7 @@ build/
 quarto/_*
 quarto/*.html
 quarto/validation_report_files/
+quarto/renv/
 
 # HTML Reports
 *.html

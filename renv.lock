@@ -7328,12 +7328,12 @@
     },
     "vip": {
       "Package": "vip",
-      "Version": "0.4.1",
+      "Version": "0.4.5",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Variable Importance Plots",
       "Authors@R": "c( person(c(\"Brandon\", \"M.\"), family = \"Greenwell\",  email = \"greenwell.brandon@gmail.com\", role = c(\"aut\", \"cre\"),  comment = c(ORCID = \"0000-0002-8120-0084\")), person(\"Brad\", \"Boehmke\", email = \"bradleyboehmke@gmail.com\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-3611-8516\")) )",
-      "Description": "A general framework for constructing variable importance plots from  various types of machine learning models in R. Aside from some standard model- specific variable importance measures, this package also provides model- agnostic approaches that can be applied to any supervised learning algorithm. These include 1) an efficient permutation-based variable importance measure,  2) variable importance based on Shapley values (Strumbelj and Kononenko,  2014) <doi:10.1007/s10115-013-0679-x>, and 3) the variance-based  approach described in Greenwell et al. (2018) <arXiv:1805.04755>. A  variance-based method for quantifying the relative strength of interaction  effects is also included (see the previous reference for details).",
+      "Description": "A general framework for constructing variable importance plots from  various types of machine learning models in R. Aside from some standard model- specific variable importance measures, this package also provides model- agnostic approaches that can be applied to any supervised learning algorithm. These include 1) an efficient permutation-based variable importance measure,  2) variable importance based on Shapley values (Strumbelj and Kononenko,  2014) <doi:10.1007/s10115-013-0679-x>, and 3) the variance-based  approach described in Greenwell et al. (2018) <doi:10.48550/arXiv.1805.04755>. A  variance-based method for quantifying the relative strength of interaction  effects is also included (see the previous reference for details).",
       "License": "GPL (>= 2)",
       "URL": "https://github.com/koalaverse/vip/, https://koalaverse.github.io/vip/",
       "BugReports": "https://github.com/koalaverse/vip/issues",
@@ -7394,12 +7394,11 @@
         "workflows (>= 0.2.3)",
         "xgboost"
       ],
-      "LazyData": "true",
-      "RoxygenNote": "7.2.3",
+      "RoxygenNote": "7.3.3",
       "NeedsCompilation": "no",
-      "Author": "Brandon M. Greenwell [aut, cre] (<https://orcid.org/0000-0002-8120-0084>), Brad Boehmke [aut] (<https://orcid.org/0000-0002-3611-8516>)",
+      "Author": "Brandon M. Greenwell [aut, cre] (ORCID: <https://orcid.org/0000-0002-8120-0084>), Brad Boehmke [aut] (ORCID: <https://orcid.org/0000-0002-3611-8516>)",
       "Maintainer": "Brandon M. Greenwell <greenwell.brandon@gmail.com>",
-      "Repository": "RSPM"
+      "Repository": "CRAN"
     },
     "viridisLite": {
       "Package": "viridisLite",

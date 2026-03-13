@@ -29,7 +29,6 @@ This report does not represent real clinical trial data.
 library(tidyverse)
 library(tidymodels)
 library(gt)
-library(knitr)
 
 # Load ADaM data (from CSV or SLC bridge)
 adsl_path <- "../data/adam/adsl.csv"
@@ -63,8 +62,8 @@ The data pipeline was executed using **Altair SLC** within the Positron IDE.
 The `slcR` package enables SAS code execution and direct dataset transfer to R.
 
 ```{sas slc-demo}
-#| eval: false
-#| label: sas-data-check
+*| eval: false;
+*| label: sas-data-check;
 /* Example: CDISC compliance check run via Altair SLC */
 proc sql;
   title 'ADSL: Subject Count by Treatment and Dropout Status';
