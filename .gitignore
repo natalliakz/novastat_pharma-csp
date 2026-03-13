@@ -1,0 +1,59 @@
+# Synthetic Data Files - NOT checked into version control
+data/sdtm/
+data/adam/
+!data/sdtm/.gitkeep
+!data/adam/.gitkeep
+
+# TFL Outputs
+sas/tfl/output/*
+!sas/tfl/output/.gitkeep
+
+# Machine Learning Models
+ml/*
+!ml/.gitkeep
+
+# R Environment
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+renv/staging/
+renv/library/
+
+# Python Environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Quarto Rendered Output
+quarto/_*
+quarto/*.html
+quarto/validation_report_files/
+
+# HTML Reports
+*.html
+*_files/
+
+# SAS Work and Logs
+*.sas7bdat
+*.sas7bndx
+*.log
+SASWork*/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.Rproj
+
+# Backup
+*.bak

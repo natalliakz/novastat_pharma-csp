@@ -1,0 +1,71 @@
+meta:
+  name:
+    short: NovaStat
+    full: NovaStat Therapeutics
+  # NOTE: This is a fictional company created for demonstration purposes only.
+
+color:
+  palette:
+    navy:       "#1B4F8A"
+    teal:       "#00A3A1"
+    light-teal: "#E6F7F7"
+    slate:      "#4A5568"
+    light-grey: "#F7F9FC"
+    white:      "#FFFFFF"
+    black:      "#1A202C"
+    green:      "#2D8653"
+    orange:     "#E87722"
+    red:        "#C0392B"
+    gold:       "#D4A017"
+
+  foreground: "#1A202C"
+  background: "#FFFFFF"
+  primary:    "#1B4F8A"
+  secondary:  "#4A5568"
+  tertiary:   "#F7F9FC"
+  success:    "#2D8653"
+  info:       "#00A3A1"
+  warning:    "#E87722"
+  danger:     "#C0392B"
+  light:      "#F7F9FC"
+  dark:       "#1A202C"
+
+typography:
+  fonts:
+    - family: Source Sans Pro
+      source: google
+      weight: [300, 400, 600, 700]
+      style: [normal, italic]
+    - family: Merriweather
+      source: google
+      weight: [400, 700]
+      style: [normal]
+    - family: Source Code Pro
+      source: google
+      weight: [400, 500]
+      style: [normal]
+
+  base:
+    family: Source Sans Pro
+    weight: 400
+    size: 16px
+    line-height: 1.6
+
+  headings:
+    family: Merriweather
+    weight: 700
+    color: "#1B4F8A"
+    line-height: 1.3
+
+  monospace:
+    family: Source Code Pro
+    weight: 400
+    size: 0.875em
+  monospace-inline:
+    color:            "#1B4F8A"
+    background-color: "#E6F7F7"
+
+  link:
+    color:      "#00A3A1"
+    weight:     600
+    decoration: underline
